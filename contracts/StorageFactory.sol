@@ -8,7 +8,7 @@ contract StorageFactory {
         string name;
     }
 
-    mapping(address => People) PeopleList;
+    mapping(address => People) public PeopleList;
 
     function store(uint256 _favNum) public {
         favouriteNumber = _favNum;
