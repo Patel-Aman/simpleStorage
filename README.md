@@ -1,13 +1,16 @@
-# Sample Hardhat Project
+# Simple Storage
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+To install all depndencies.
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npm install
 ```
+run `npx hardhat` in terminal to see all available commands.
+
+run `npx hardhat run scripts/deploy.js` to deploy the contract.
+
+similarly run other script files to interact with contract and test it.
+
+`npx hardhat test` to run tests. add more tests if neccessary in test folder.
+
+To check gas usage open `gas-report.txt`.
